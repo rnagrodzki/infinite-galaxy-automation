@@ -20,78 +20,99 @@ Keyboard full of shortcuts and macros is available for you!
     <th>Key stroke</th>
     <th>Name</th>
     <th>Description</th>
+    <th>View</th>
   </tr>
 </thead>
 <tbody>
   <tr>
+    <td>J</td>
+    <td>Join rally</td>
+    <td>Join rally from chat window</td>
+    <td>Star System</td>
+  </tr>
+  <tr>
     <td>P+1</td>
     <td>Fight with pirates once</td>
     <td>Fight with pirates choosing highest victorious level</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>P+5</td>
     <td>Fight with pirates 5 times</td>
     <td>Fight with pirates choosing highest victorious level with delay 90s between fights</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>P+A</td>
     <td>Fight with pirates 10 times</td>
     <td>Fight with pirates choosing highest victorious level with delay 90s between fights</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>Ctrl+P</td>
     <td>Gather Plasma lvl4</td>
     <td>Send 1 available fleet to gather Plasma lvl4</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>G+P</td>
     <td>Gather Plasma lvl4</td>
     <td>Send 3 available fleets to gather Plasma lvl4</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>Ctrl+N</td>
     <td>Gather Nickel lvl4</td>
     <td>Send 1 available fleet to gather Plasma lvl4</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>G+N</td>
     <td>Gather Plasma lvl4</td>
     <td>Send 3 available fleets to gather Plasma lvl4</td>
+    <td>Star System</td>
   </tr>
   <tr>
     <td>R+C</td>
     <td>Crew Reward</td>
     <td>Recruit 1 crew member & increase XP yor first crew members from the list</td>
+    <td>Spaceport</td>
   </tr>
   <tr>
     <td>R+S</td>
     <td>Flagship Reward</td>
     <td>Go to Flagship Center and increase your 4th flagship XP</td>
+    <td>Spaceport</td>
   </tr>
   <tr>
     <td>R+V</td>
     <td>Daily VIP Reward</td>
     <td>Get collect your daily VIP rewards</td>
+    <td>Spaceport/Star System</td>
   </tr>
   <tr>
     <td>R+G</td>
     <td>Campaign Reward</td>
     <td>Get collect your Campaign reward</td>
+    <td>Spaceport/Star System</td>
   </tr>
   <tr>
     <td>R+L</td>
     <td>Alliance Rewards</td>
     <td>Get all alliance rewards, starting from territory tax, ending on Gifts</td>
+    <td>Spaceport/Star System</td>
   </tr>
   <tr>
     <td>R+M</td>
     <td>Daily Missions Rewards</td>
     <td>Get all 6 daily chests</td>
+    <td>Spaceport/Star System</td>
   </tr>
   <tr>
     <td>R+A</td>
     <td>All Rewards</td>
     <td>Full combo which combines in sequence <b>R+C</b>, <b>R+S</b>, <b>R+V</b>, <b>R+G</b>, <b>R+L</b> and <b>R+M</b> </td>
+    <td>Spaceport</td>
   </tr>
 </tbody>
 </table>
