@@ -1,3 +1,101 @@
+# NoxPlayer keymaps
+Keyboard full of shortcuts and macros is available for you!
+
+## How to install
+1. Download [keymap](./keymaps/com.camelgames.ig.7z)
+2. Go to keyboards settings location of your NoxPlayer
+3. Unzip there archive keeping directory name as `com.camelgames.ig`
+
+### I don't know where is keyboards directory
+1. Open NoxPlayer
+2. Click on Keyboard image from right tools menu
+3. Full keyboard menu should open
+4. Click on very top, right from `Keyboards Mapping` title on icon `Open configuration file location`
+5. Unzip there
+
+## Shortcuts
+<table>
+<thead>
+  <tr>
+    <th>Key stroke</th>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>P+1</td>
+    <td>Fight with pirates once</td>
+    <td>Fight with pirates choosing highest victorious level</td>
+  </tr>
+  <tr>
+    <td>P+5</td>
+    <td>Fight with pirates 5 times</td>
+    <td>Fight with pirates choosing highest victorious level with delay 90s between fights</td>
+  </tr>
+  <tr>
+    <td>P+A</td>
+    <td>Fight with pirates 10 times</td>
+    <td>Fight with pirates choosing highest victorious level with delay 90s between fights</td>
+  </tr>
+  <tr>
+    <td>Ctrl+P</td>
+    <td>Gather Plasma lvl4</td>
+    <td>Send 1 available fleet to gather Plasma lvl4</td>
+  </tr>
+  <tr>
+    <td>G+P</td>
+    <td>Gather Plasma lvl4</td>
+    <td>Send 3 available fleets to gather Plasma lvl4</td>
+  </tr>
+  <tr>
+    <td>Ctrl+N</td>
+    <td>Gather Nickel lvl4</td>
+    <td>Send 1 available fleet to gather Plasma lvl4</td>
+  </tr>
+  <tr>
+    <td>G+N</td>
+    <td>Gather Plasma lvl4</td>
+    <td>Send 3 available fleets to gather Plasma lvl4</td>
+  </tr>
+  <tr>
+    <td>R+C</td>
+    <td>Crew Reward</td>
+    <td>Recruit 1 crew member & increase XP yor first crew members from the list</td>
+  </tr>
+  <tr>
+    <td>R+S</td>
+    <td>Flagship Reward</td>
+    <td>Go to Flagship Center and increase your 4th flagship XP</td>
+  </tr>
+  <tr>
+    <td>R+V</td>
+    <td>Daily VIP Reward</td>
+    <td>Get collect your daily VIP rewards</td>
+  </tr>
+  <tr>
+    <td>R+G</td>
+    <td>Campaign Reward</td>
+    <td>Get collect your Campaign reward</td>
+  </tr>
+  <tr>
+    <td>R+L</td>
+    <td>Alliance Rewards</td>
+    <td>Get all alliance rewards, starting from territory tax, ending on Gifts</td>
+  </tr>
+  <tr>
+    <td>R+M</td>
+    <td>Daily Missions Rewards</td>
+    <td>Get all 6 daily chests</td>
+  </tr>
+  <tr>
+    <td>R+A</td>
+    <td>All Rewards</td>
+    <td>Full combo which combines in sequence <b>R+C</b>, <b>R+S</b>, <b>R+V</b>, <b>R+G</b>, <b>R+L</b> and <b>R+M</b> </td>
+  </tr>
+</tbody>
+</table>
+
 # NoxPlayer macros list
 
 ### Prerequisites
@@ -13,7 +111,7 @@ Macro which will get your main fleet up to fight with pirates and get latest unl
 3. You should be in star system where is your spaceport
 
 ### How to use
-1. Download [Fight pirates macro](./fight-pirates-macro.7z)
+1. Download [Fight pirates macro](./macros/fight-pirates-macro.7z)
 2. Import macro to NoxPlayer
 3. Launch game
 4. Go to *Star System* view
@@ -24,7 +122,7 @@ Macro which will get your main fleet up to fight with pirates and get latest unl
 Simple collecting all reward boxes from your daily missions
 
 ### How to use
-1. Download [Collect daily missions macro](./collecxt-daily-missions-rewards.7z)
+1. Download [Collect daily missions macro](./macros/collecxt-daily-missions-rewards.7z)
 2. Import macro to NoxPlayer
 3. Launch game
 4. Run the macro
@@ -36,7 +134,7 @@ Send first three fleets to collect selected resource
 1. First three fleet needs to be free in spaceport
 
 ### How to use
-1. Download [Get plasma lvl4 macro](./get-plasma-lvl4-x3.7z) & [Get nickel lvl4 macro](./get-nickel-lvl4-x3.7z)
+1. Download [Get plasma lvl4 macro](./macros/get-plasma-lvl4-x3.7z) & [Get nickel lvl4 macro](./macros/get-nickel-lvl4-x3.7z)
 2. Import macros to NoxPlayer
 3. Launch game
 4. Go to *Star System* view
