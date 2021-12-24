@@ -1,0 +1,43 @@
+{
+  "name": "infinite-galaxy-automation",
+  "version": "1.0.0",
+  "description": "Collection of automated scripts/macros for Infinite Galaxy game",
+  "main": "nox-builder/src/index/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./nox-builder/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnagrodzki/infinite-galaxy-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnagrodzki/infinite-galaxy-automation/issues"
+  },
+  "homepage": "https://github.com/rnagrodzki/infinite-galaxy-automation#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "path": "^0.12.7"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "useTabs": true,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "arrowParens": "avoid"
+  },
+  "lint-staged": {
+    "**/*.js": "prettier --write --ignore-unknown"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.4",
+    "prettier": "2.5.1"
+  }
+}

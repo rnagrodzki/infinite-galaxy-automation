@@ -1,0 +1,8 @@
+title: VIP
+comment: Get all VIP rewards
+keys: R+V
+commands:
+  - vip
+  - vipFreeChest
+  - vipPointsChest
+  - vipClose
