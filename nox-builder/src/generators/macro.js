@@ -14,14 +14,15 @@ const processCommand = commandName => {
 			`Command "${commandName}" definition has to be an array`
 		);
 
-	return commands.map(({command, arguments: params, delay, description}) => {
-		const lines = [
-			`# action: ${description}`,
-			...(params ? [`${command} ${params.join(' ')}`] : [command]),
-			...(delay ? [`delay ${delay}`] : []),
-		];
-		return lines.join('\r\n');
-	});
+	return commands
+		.map(({command, arguments: params, delay, description}) => {
+			return [
+				`# action: ${description}`,
+				...(params ? [`${command} ${params.join(' ')}`] : [command]),
+				...(delay ? [`delay ${delay}`] : []),
+			];
+		})
+		.flat();
 };
 
 const generateMacro = ({name, story}) => {
@@ -43,7 +44,7 @@ const generateMacro = ({name, story}) => {
 		`# description: ${comment}`,
 	].concat(commands.map(processCommand).flat());
 
-	return {name, content: buffer.join('\r\n'), path: filePath};
+	return {name, content: buffer, path: filePath, keys};
 };
 
 const process = directory => {
