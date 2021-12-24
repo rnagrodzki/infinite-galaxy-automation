@@ -1,6 +1,12 @@
 import fs from 'fs';
 import yaml from 'js-yaml';
-import {TEMPLATES_DIR, MACROS_DIR, BUILD_DIR} from './consts/index.js';
+import {
+	TEMPLATES_DIR,
+	MACROS_DIR,
+	BUILD_DIR,
+	MAX_SCREEN_WIDTH,
+	MAX_SCREEN_HEIGHT,
+} from './consts/index.js';
 import map from './map/index.js';
 
 const createIfNotExist = dir => {
@@ -39,9 +45,11 @@ const generateMacro = ({name, story}) => {
 	const filePath = `${MACROS_DIR}/${name}.txt`;
 	if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
 
-	const buffer = [`# ---- ${title} ----`, `# description: ${comment}`].concat(
-		commands.map(processCommand).flat()
-	);
+	const buffer = [
+		`size ${MAX_SCREEN_WIDTH} ${MAX_SCREEN_HEIGHT}`,
+		`# ---- ${title} ----`,
+		`# description: ${comment}`,
+	].concat(commands.map(processCommand).flat());
 
 	fs.writeFileSync(filePath, buffer.join('\r\n'), {encoding: 'utf-8'});
 };
