@@ -1,0 +1,8 @@
+title: Crew
+comment: Do daily crew mission
+keys: R+C
+commands:
+  - crew
+  - crewRecruitment
+  - crewExperience
+  - crewClose

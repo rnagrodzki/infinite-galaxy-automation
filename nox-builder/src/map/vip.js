@@ -2,7 +2,7 @@ export default {
 	vip: [
 		{
 			command: 'click',
-			coordinates: [90, 160],
+			arguments: [90, 160],
 			delay: 1500,
 			description: 'Open VIP menu',
 		},
@@ -10,13 +10,13 @@ export default {
 	vipFreeChest: [
 		{
 			command: 'click',
-			coordinates: [1600, 570],
+			arguments: [1600, 570],
 			delay: 500,
 			description: 'Click daily VIP rewards chest',
 		},
 		{
 			command: 'click',
-			coordinates: [1600, 570],
+			arguments: [1600, 570],
 			delay: 500,
 			description: 'Close rewards overlay',
 		},
@@ -24,13 +24,13 @@ export default {
 	vipPointsChest: [
 		{
 			command: 'click',
-			coordinates: [1600, 570],
+			arguments: [1600, 570],
 			delay: 500,
 			description: 'Click daily VIP points chest',
 		},
 		{
 			command: 'click',
-			coordinates: [1600, 570],
+			arguments: [1600, 570],
 			delay: 500,
 			description: 'Close rewards overlay',
 		},
@@ -38,7 +38,7 @@ export default {
 	vipClose: [
 		{
 			command: 'click',
-			coordinates: [1840, 100],
+			arguments: [1840, 100],
 			delay: 1000,
 			description: 'Close VIP menu',
 		},

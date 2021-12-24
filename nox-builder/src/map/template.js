@@ -2,13 +2,13 @@ export default {
 	action: [
 		{
 			command: 'click',
-			coordinates: [],
+			arguments: [],
 			delay: 500,
 			description: '',
 		},
 		{
 			command: 'click',
-			coordinates: [],
+			arguments: [],
 			delay: 500,
 			description: '',
 		},
