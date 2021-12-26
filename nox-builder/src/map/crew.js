@@ -1,3 +1,10 @@
+const BACK_COMMAND = {
+	command: 'click',
+	arguments: [200, 45],
+	delay: 1500,
+	description: 'Click back button',
+};
+
 export default {
 	crew: {
 		description: 'Open Crew main menu',
@@ -43,6 +50,7 @@ export default {
 				delay: 1500,
 				description: 'Accept cards',
 			},
+			BACK_COMMAND,
 		],
 	},
 	crewExperience: {
@@ -79,23 +87,11 @@ export default {
 				delay: 750,
 				description: 'Close window with experience cards',
 			},
-			{
-				command: 'click',
-				arguments: [200, 45],
-				delay: 1500,
-				description: 'Back to main crew view',
-			},
+			BACK_COMMAND,
 		],
 	},
 	crewClose: {
 		description: 'Close crew menu',
-		actions: [
-			{
-				command: 'click',
-				arguments: [200, 45],
-				delay: 1500,
-				description: 'Close crew menu',
-			},
-		],
+		actions: [BACK_COMMAND],
 	},
 };
