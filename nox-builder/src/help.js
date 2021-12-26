@@ -1,5 +1,7 @@
 import commandLineUsage from 'command-line-usage';
 import map from './map/index.js';
+import storiesReader from './readers/storiesReader.js';
+import {STORIES_DIR} from './consts/index.js';
 
 const general = [
 	{
@@ -14,6 +16,12 @@ const general = [
 				alias: 'c',
 				type: Boolean,
 				description: 'Prints list of available macro commands.',
+			},
+			{
+				name: 'stories',
+				alias: 's',
+				type: Boolean,
+				description: 'Prints list of available stories.',
 			},
 			{
 				name: 'delay',
@@ -43,7 +51,7 @@ const generateCommandsListItem = commandsMap => key => {
 const generateCommandsList = allCommands => {
 	return [
 		{
-			header: 'Commands',
+			header: 'Available commands',
 			content: Object.keys(allCommands).map(
 				generateCommandsListItem(allCommands)
 			),
@@ -51,12 +59,30 @@ const generateCommandsList = allCommands => {
 	];
 };
 
-const captureUserCommands = ({help, commands}) => {
+const generateScenariosList = () => {
+	return [
+		{
+			header: 'Available stories',
+			content: storiesReader(STORIES_DIR).map(({content}) => {
+				const {title, comment} = content;
+				return {
+					header: title,
+					content: comment,
+				};
+			}),
+		},
+	];
+};
+
+const captureUserCommands = ({help, commands, stories}) => {
 	console.log(commandLineUsage(general));
 	if (help) {
 		return true;
 	} else if (commands) {
 		console.log(commandLineUsage(generateCommandsList(map)));
+		return true;
+	} else if (stories) {
+		console.log(commandLineUsage(generateScenariosList()));
 		return true;
 	}
 

@@ -14,6 +14,7 @@ import generateKeymap from './generators/keymap.js';
 const optionDefinitions = [
 	{name: 'help', alias: 'h', type: Boolean},
 	{name: 'commands', alias: 'c', type: Boolean},
+	{name: 'stories', alias: 's', type: Boolean},
 	{name: 'delay', alias: 'd', type: Number},
 ];
 

@@ -4,8 +4,7 @@ import {
 	MAX_SCREEN_HEIGHT,
 	MAX_SCREEN_WIDTH,
 } from '../consts/index.js';
-import fs from 'fs';
-import yaml from 'js-yaml';
+import storiesReader from '../readers/storiesReader.js';
 
 const parseCommandDefinition = def => {
 	if (!def) throw new Error('Command definition can not be empty');
@@ -51,7 +50,6 @@ const generateMacro = ({name, story}) => {
 			throw new Error(`${name}: Not supported command "${commandName}"`);
 	});
 	const filePath = `${MACROS_DIR}/${name}.txt`;
-	if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
 
 	const buffer = [
 		`size ${MAX_SCREEN_WIDTH} ${MAX_SCREEN_HEIGHT}`,
@@ -63,14 +61,9 @@ const generateMacro = ({name, story}) => {
 };
 
 const process = directory => {
-	const files = fs.readdirSync(directory);
-	return files
-		.map(file => {
-			const story = yaml.load(
-				fs.readFileSync(`${directory}/${file}`, 'utf-8')
-			);
-			const name = file.split('.')[0];
-			return story ? generateMacro({name, story}) : null;
+	return storiesReader(directory)
+		.map(({name, content}) => {
+			return content ? generateMacro({name, story: content}) : null;
 		})
 		.filter(item => !!item);
 };
