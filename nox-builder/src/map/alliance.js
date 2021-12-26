@@ -73,13 +73,13 @@ export default {
 			},
 			{
 				command: 'click',
-				arguments: [1600, 830],
+				arguments: [1740, 980],
 				delay: REWARDS_OVERLAY_DELAY,
 				description: 'Claim all rewards for daily missions',
 			},
 			{
 				command: 'click',
-				arguments: [1600, 830],
+				arguments: [1740, 980],
 				delay: CLOSING_REWARDS_OVERLAY_DELAY,
 				description: 'Dismiss rewards overlay',
 			},
