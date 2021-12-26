@@ -1,6 +1,6 @@
-title: Gather Plasma
+title: Gather Plasma4
 comment: Gather plasma lvl 4
-keys: G+P
+keys: Ctrl+P
 commands:
   - search
   - searchPlasma

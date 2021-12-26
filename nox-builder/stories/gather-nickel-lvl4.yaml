@@ -1,6 +1,6 @@
-title: Gather Nickel
+title: Gather Nickel4
 comment: Gather nickel lvl 4
-keys: G+N
+keys: Ctrl+N
 commands:
   - search
   - searchNickel

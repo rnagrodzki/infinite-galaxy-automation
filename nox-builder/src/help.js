@@ -64,9 +64,9 @@ const generateScenariosList = () => {
 		{
 			header: 'Available stories',
 			content: storiesReader(STORIES_DIR).map(({content}) => {
-				const {title, comment} = content;
+				const {title, comment, keys} = content;
 				return {
-					header: title,
+					header: `${title} (${keys})`,
 					content: comment,
 				};
 			}),

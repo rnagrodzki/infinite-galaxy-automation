@@ -1,5 +1,5 @@
-title: Gather Plasma
-comment: Gather plasma lvl 4
+title: Gather Plasma4 x3
+comment: Gather plasma lvl 4 with 3 fleets
 keys: G+P
 commands:
   - loop;3
