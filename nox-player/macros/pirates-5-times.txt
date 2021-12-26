@@ -22,4 +22,4 @@ delay 200
 click 1540 480
 delay 200
 # action: Add extra delay
-delay 70
+delay 75000

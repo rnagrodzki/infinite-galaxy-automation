@@ -7,4 +7,4 @@ commands:
   - searchPirates
   - searchLatestPirate
   - fleetFirstConfirm
-  - delay;70
+  - delay;75000
