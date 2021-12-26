@@ -9,7 +9,7 @@ click 460 800
 delay 750
 # action: Select resource lvl 4
 click 1560 480
-delay 1500
+delay 2000
 # action: Click attack button on selected target
 click 1340 540
 delay 1000

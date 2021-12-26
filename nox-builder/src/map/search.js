@@ -1,3 +1,5 @@
+const CONFIRM_SEARCH_DELAY = 2000;
+
 export default {
 	search: {
 		description: 'Open search window',
@@ -49,8 +51,30 @@ export default {
 			{
 				command: 'click',
 				arguments: [1560, 680],
-				delay: 1500,
+				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select latest killed pirates',
+			},
+		],
+	},
+	searchResourceLvl6: {
+		description: 'Select resource lvl 5',
+		actions: [
+			{
+				command: 'click',
+				arguments: [1560, 280],
+				delay: CONFIRM_SEARCH_DELAY,
+				description: 'Select resource lvl 5',
+			},
+		],
+	},
+	searchResourceLvl5: {
+		description: 'Select resource lvl 5',
+		actions: [
+			{
+				command: 'click',
+				arguments: [1560, 380],
+				delay: CONFIRM_SEARCH_DELAY,
+				description: 'Select resource lvl 5',
 			},
 		],
 	},
@@ -60,8 +84,30 @@ export default {
 			{
 				command: 'click',
 				arguments: [1560, 480],
-				delay: 1500,
+				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select resource lvl 4',
+			},
+		],
+	},
+	searchResourceLvl3: {
+		description: 'Select resource lvl 3',
+		actions: [
+			{
+				command: 'click',
+				arguments: [1560, 580],
+				delay: CONFIRM_SEARCH_DELAY,
+				description: 'Select resource lvl 3',
+			},
+		],
+	},
+	searchResourceLvl2: {
+		description: 'Select resource lvl 2',
+		actions: [
+			{
+				command: 'click',
+				arguments: [1560, 680],
+				delay: CONFIRM_SEARCH_DELAY,
+				description: 'Select resource lvl 2',
 			},
 		],
 	},

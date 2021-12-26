@@ -15,13 +15,12 @@ const xmlItem = `        <Item clicked_tip="" width="104" type="9" height="48" p
 
 const generateKeymap = (macros, dir) => {
 	const items = macros.map(({name, content, path, keys}, index) => {
-		const itemContent = xmlItem
+		return xmlItem
 			.replace('##KEY##', keys)
 			.replace('##ID##', index.toString())
 			.replace('##POSY##', index.toString())
 			.replace('##POS2Y##', index.toString())
 			.replace('##MACRO##', content.join(NEW_LINE));
-		return itemContent;
 	});
 
 	const keyboardContent = xmlTemplate.replace(
@@ -33,7 +32,20 @@ const generateKeymap = (macros, dir) => {
 		{
 			name: 'keymap',
 			content: keyboardContent,
-			path: `${dir}/72e202c01b7b4714881e363d8e474e96`,
+			path: `${dir}/keymap`,
+		},
+		{
+			name: 'keymap-macros',
+			content: JSON.stringify(
+				macros.map(({name, keys, content}) => ({
+					name,
+					keys,
+					macro: content.join(NEW_LINE),
+				})),
+				null,
+				2
+			),
+			path: `${dir}/keymap-macros-map.json`,
 		},
 	];
 };

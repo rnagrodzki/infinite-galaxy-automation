@@ -11,7 +11,7 @@ click 460 270
 delay 750
 # action: Select latest killed pirates
 click 1560 680
-delay 1500
+delay 2000
 # action: Click attack button on selected target
 click 1340 540
 delay 1000
