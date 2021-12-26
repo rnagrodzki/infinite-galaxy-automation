@@ -1,0 +1,10 @@
+title: Pirates
+comment: Fight with pirates using latest completed stage
+keys: P+5
+commands:
+  - loop;5
+  - search
+  - searchPirates
+  - searchLatestPirate
+  - fleetFirstConfirm
+  - delay;70

@@ -1,0 +1,8 @@
+title: Gather Nickel4
+comment: Gather nickel lvl 4
+keys: Ctrl+N
+commands:
+  - search
+  - searchNickel
+  - searchResourceLvl4
+  - fleetConfirm

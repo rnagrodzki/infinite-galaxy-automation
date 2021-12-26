@@ -1,0 +1,8 @@
+title: Join rally
+comment: Join rally from chat window
+keys: J
+commands:
+  - openChatWindow
+  - clickOnLatestChatMessage
+  - rallyJoinOrWithdraw
+  - fleetLaunch

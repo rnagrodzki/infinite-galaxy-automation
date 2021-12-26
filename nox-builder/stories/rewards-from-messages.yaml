@@ -1,0 +1,9 @@
+title: Rewards from messages
+comment: Get all rewards from messages and remove read
+keys: R+E
+commands:
+  - messages
+  - messages2ndTab
+  - messagesClaimAll
+  - messagesDeleteAll
+  - messagesClose

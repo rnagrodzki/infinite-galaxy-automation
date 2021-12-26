@@ -1,0 +1,8 @@
+title: Gather Plasma4
+comment: Gather plasma lvl 4
+keys: Ctrl+P
+commands:
+  - search
+  - searchPlasma
+  - searchResourceLvl4
+  - fleetConfirm
