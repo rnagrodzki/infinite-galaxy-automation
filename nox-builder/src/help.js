@@ -52,9 +52,9 @@ const generateCommandsList = allCommands => {
 	return [
 		{
 			header: 'Available commands',
-			content: Object.keys(allCommands).map(
-				generateCommandsListItem(allCommands)
-			),
+			content: Object.keys(allCommands)
+				.sort()
+				.map(generateCommandsListItem(allCommands)),
 		},
 	];
 };
