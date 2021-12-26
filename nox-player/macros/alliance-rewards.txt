@@ -1,0 +1,54 @@
+size 1920 1080
+# ---- Alliance Rewards ----
+# description: Get all Alliance rewards
+# action: Open alliance tab
+click 1050 950
+delay 2000
+# action: Open alliance gift tab
+click 1050 830
+delay 1500
+# action: Claim all gifts
+click 1780 290
+delay 1000
+# action: Dismiss rewards overlay
+click 1780 290
+delay 500
+# action: Remove all gifts
+click 1600 290
+delay 500
+# action: Close alliance tab
+click 1830 100
+delay 1000
+# action: Open alliance daily missions tab
+click 1600 830
+delay 1500
+# action: Claim all rewards for daily missions
+click 1740 980
+delay 1000
+# action: Dismiss rewards overlay
+click 1740 980
+delay 600
+# action: Close alliance tab
+click 1830 100
+delay 1000
+# action: Slide alliance menu left
+slide 1800 830 190 830
+delay 2000
+# action: Open alliance territory tab
+click 1170 830
+delay 1500
+# action: Switch to alliance territory tax tab
+click 1220 100
+delay 750
+# action: Claim tax reward
+click 1600 250
+delay 1000
+# action: Claim tax reward
+click 1600 250
+delay 600
+# action: Close alliance tab
+click 1830 100
+delay 1000
+# action: Close alliance tab
+click 1830 100
+delay 1000

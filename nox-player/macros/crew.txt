@@ -1,0 +1,45 @@
+size 1920 1080
+# ---- Crew ----
+# description: Do daily crew mission
+# action: Open crew menu
+click 450 610
+delay 1500
+# action: Open recruitment menu
+click 930 470
+delay 1500
+# action: Recruit 1 time
+click 550 550
+delay 1500
+# action: Skip animation in case you are lucky
+click 960 950
+delay 1000
+# action: Accept cards set in case you are lucky
+click 960 950
+delay 1000
+# action: Accept cards
+click 580 950
+delay 1500
+# action: Click back button
+click 200 45
+delay 1500
+# action: Open crew overview
+click 290 670
+delay 1500
+# action: Open crew overview
+click 450 610
+delay 1500
+# action: Click add experience button
+click 1840 270
+delay 750
+# action: Use first experience card on list
+click 1360 520
+delay 750
+# action: Close window with experience cards
+click 1480 190
+delay 750
+# action: Click back button
+click 200 45
+delay 1500
+# action: Click back button
+click 200 45
+delay 1500

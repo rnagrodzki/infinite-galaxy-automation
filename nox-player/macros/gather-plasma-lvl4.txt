@@ -1,0 +1,24 @@
+size 1920 1080
+# ---- Gather Plasma4 ----
+# description: Gather plasma lvl 4
+# action: Open search window
+click 1620 340
+delay 1000
+# action: Open plasma search tab
+click 460 800
+delay 750
+# action: Select resource lvl 4
+click 1560 480
+delay 1500
+# action: Click attack button on selected target
+click 1340 540
+delay 1000
+# action: Confirm sending fleet - fleet 1
+click 1540 480
+delay 200
+# action: Confirm sending fleet - fleet 2
+click 1540 610
+delay 200
+# action: Confirm sending fleet - fleet 3 & 4
+click 1540 740
+delay 200

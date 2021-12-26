@@ -1,0 +1,48 @@
+size 1920 1080
+# ---- Daily missions ----
+# description: Get all boxes from daily missions
+# action: Open missions window
+click 790 960
+delay 1500
+# action: Open 2nd missions tab
+click 560 100
+delay 500
+# action: Open missions chest 1
+click 380 250
+delay 750
+# action: Close rewards overlay
+click 380 250
+delay 250
+# action: Open missions chest 2
+click 600 250
+delay 750
+# action: Close rewards overlay
+click 600 250
+delay 250
+# action: Open missions chest 3
+click 920 250
+delay 750
+# action: Close rewards overlay
+click 920 250
+delay 250
+# action: Open missions chest 4
+click 1190 250
+delay 750
+# action: Close rewards overlay
+click 1190 250
+delay 250
+# action: Open missions chest 5
+click 1460 250
+delay 750
+# action: Close rewards overlay
+click 1460 250
+delay 250
+# action: Open missions chest 6
+click 1780 250
+delay 750
+# action: Close rewards overlay
+click 1780 250
+delay 250
+# action: Close missions window
+click 1830 100
+delay 1500

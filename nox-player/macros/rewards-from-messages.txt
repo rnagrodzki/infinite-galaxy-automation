@@ -1,0 +1,21 @@
+size 1920 1080
+# ---- Rewards from messages ----
+# description: Get all rewards from messages and remove read
+# action: Open messages window
+click 1310 950
+delay 1000
+# action: Switch to 2nd tab
+click 450 100
+delay 500
+# action: Claim all rewards from active messages tab
+click 160 980
+delay 1000
+# action: Dispose rewards overlay
+click 160 980
+delay 200
+# action: Delete all read messages from active messages
+click 600 980
+delay 500
+# action: close messages window
+click 1835 100
+delay 1000

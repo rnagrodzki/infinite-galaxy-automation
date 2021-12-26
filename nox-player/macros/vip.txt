@@ -1,0 +1,21 @@
+size 1920 1080
+# ---- VIP ----
+# description: Get all VIP rewards
+# action: Open VIP menu
+click 90 160
+delay 1500
+# action: Click daily VIP rewards chest
+click 1600 570
+delay 500
+# action: Close rewards overlay
+click 1600 570
+delay 500
+# action: Click daily VIP points chest
+click 1600 570
+delay 500
+# action: Close rewards overlay
+click 1600 570
+delay 500
+# action: Close VIP menu
+click 1840 100
+delay 1000

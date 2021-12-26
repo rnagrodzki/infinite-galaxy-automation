@@ -1,0 +1,15 @@
+size 1920 1080
+# ---- Join rally ----
+# description: Join rally from chat window
+# action: Open chat window
+click 250 1040
+delay 750
+# action: Click on latest message in chat
+click 600 830
+delay 750
+# action: Join or withdraw from rally
+click 300 950
+delay 500
+# action: Confirm sending fleet - fleet 1
+click 1540 480
+delay 200

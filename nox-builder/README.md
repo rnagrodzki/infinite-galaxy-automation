@@ -1,4 +1,4 @@
-#Nox Builder
+# Nox Builder
 Nox Builder is a tool dedicated to create macros for Infinite Galaxy in easy and efficient way
 
 ## Requirements
