@@ -16,9 +16,12 @@ const ACCEPT_TARGET_COMMAND = {
 };
 
 export default {
-	fleetLaunch: {description: '', actions: [LAUNCH_FIRST_FLEET_COMMAND]},
+	fleetLaunch: {
+		description: 'Press launch button next to fleet',
+		actions: [LAUNCH_FIRST_FLEET_COMMAND],
+	},
 	fleetConfirm: {
-		description: '',
+		description: 'Confirm sending fleet to already selected target',
 		actions: [
 			ACCEPT_TARGET_COMMAND,
 			LAUNCH_FIRST_FLEET_COMMAND,
@@ -37,7 +40,7 @@ export default {
 		],
 	},
 	fleetFirstConfirm: {
-		description: '',
+		description: 'Confirm sending 1st fleet to already selected target',
 		actions: [
 			ACCEPT_TARGET_COMMAND,
 			{

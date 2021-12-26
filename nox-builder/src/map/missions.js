@@ -3,7 +3,7 @@ const CLOSE_REWARDS_OVERLAY_DELAY = 250;
 
 export default {
 	missions: {
-		description: '',
+		description: 'Open daily missions window',
 		actions: [
 			{
 				command: 'click',
@@ -14,7 +14,7 @@ export default {
 		],
 	},
 	missions2ndTab: {
-		description: '',
+		description: 'Switch to 2nd tab in daily missions window',
 		actions: [
 			{
 				command: 'click',
@@ -25,7 +25,7 @@ export default {
 		],
 	},
 	missionsChest1: {
-		description: '',
+		description: 'Open chest and claim rewards',
 		actions: [
 			{
 				command: 'click',
@@ -42,7 +42,7 @@ export default {
 		],
 	},
 	missionsChest2: {
-		description: '',
+		description: 'Open chest and claim rewards',
 		actions: [
 			{
 				command: 'click',
@@ -59,7 +59,7 @@ export default {
 		],
 	},
 	missionsChest3: {
-		description: '',
+		description: 'Open chest and claim rewards',
 		actions: [
 			{
 				command: 'click',
@@ -76,7 +76,7 @@ export default {
 		],
 	},
 	missionsChest4: {
-		description: '',
+		description: 'Open chest and claim rewards',
 		actions: [
 			{
 				command: 'click',
@@ -93,7 +93,7 @@ export default {
 		],
 	},
 	missionsChest5: {
-		description: '',
+		description: 'Open chest and claim rewards',
 		actions: [
 			{
 				command: 'click',
@@ -110,7 +110,7 @@ export default {
 		],
 	},
 	missionsChest6: {
-		description: '',
+		description: 'Open chest and claim rewards',
 		actions: [
 			{
 				command: 'click',
@@ -127,7 +127,7 @@ export default {
 		],
 	},
 	missionsClose: {
-		description: '',
+		description: 'Close daily missions window',
 		actions: [
 			{
 				command: 'click',

@@ -1,6 +1,6 @@
 export default {
 	delay: {
-		description: '',
+		description: 'Add extra delay. Command usage "delay;[ms]"',
 		actions: [
 			{
 				command: 'delay',
@@ -10,7 +10,8 @@ export default {
 		],
 	},
 	loop: {
-		description: '',
+		description:
+			'Repeat macro exact amount of times. Command usage "loop;[repetitionsCount]"',
 		actions: [
 			{
 				command: 'loop',
@@ -20,7 +21,7 @@ export default {
 		],
 	},
 	openChatWindow: {
-		description: '',
+		description: 'Open chat window',
 		actions: [
 			{
 				command: 'click',
@@ -31,7 +32,7 @@ export default {
 		],
 	},
 	clickOnLatestChatMessage: {
-		description: '',
+		description: 'Click on latest message in chat when chat is open',
 		actions: [
 			{
 				command: 'click',

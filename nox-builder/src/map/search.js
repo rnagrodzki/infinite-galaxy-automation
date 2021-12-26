@@ -1,6 +1,6 @@
 export default {
 	search: {
-		description: '',
+		description: 'Open search window',
 		actions: [
 			{
 				command: 'click',
@@ -11,7 +11,7 @@ export default {
 		],
 	},
 	searchPirates: {
-		description: '',
+		description: 'Switch to pirates tab in search window',
 		actions: [
 			{
 				command: 'click',
@@ -22,7 +22,7 @@ export default {
 		],
 	},
 	searchPlasma: {
-		description: '',
+		description: 'Switch to plasma tab in search window',
 		actions: [
 			{
 				command: 'click',
@@ -33,7 +33,7 @@ export default {
 		],
 	},
 	searchNickel: {
-		description: '',
+		description: 'Switch to nickel tab in search window',
 		actions: [
 			{
 				command: 'click',
@@ -44,24 +44,24 @@ export default {
 		],
 	},
 	searchLatestPirate: {
-		description: '',
+		description: 'Select latest killed pirates',
 		actions: [
 			{
 				command: 'click',
 				arguments: [1560, 680],
 				delay: 1500,
-				description: 'Search latest killed pirates',
+				description: 'Select latest killed pirates',
 			},
 		],
 	},
 	searchResourceLvl4: {
-		description: '',
+		description: 'Select resource lvl 4',
 		actions: [
 			{
 				command: 'click',
 				arguments: [1560, 480],
 				delay: 1500,
-				description: 'Search resource lvl 4',
+				description: 'Select resource lvl 4',
 			},
 		],
 	},

@@ -7,7 +7,7 @@ const SWITCH_TAB_DELAY = 750;
 
 export default {
 	alliance: {
-		description: '',
+		description: 'Open alliance tab',
 		actions: [
 			{
 				command: 'click',
@@ -18,7 +18,7 @@ export default {
 		],
 	},
 	allianceTech: {
-		description: '',
+		description: 'Open alliance tech tab',
 		actions: [
 			{
 				command: 'click',
@@ -29,7 +29,7 @@ export default {
 		],
 	},
 	allianceGift: {
-		description: '',
+		description: 'Open alliance gift tab & claim all gifts',
 		actions: [
 			{
 				command: 'click',
@@ -52,18 +52,18 @@ export default {
 		],
 	},
 	allianceGiftRemoveAll: {
-		description: '',
+		description: 'Remove all gifts',
 		actions: [
 			{
 				command: 'click',
 				arguments: [1600, 290],
 				delay: 500,
-				description: 'Remove all rewards',
+				description: 'Remove all gifts',
 			},
 		],
 	},
 	allianceMissions: {
-		description: '',
+		description: 'Open alliance daily missions tab & claim all rewards',
 		actions: [
 			{
 				command: 'click',
@@ -86,7 +86,7 @@ export default {
 		],
 	},
 	allianceEvent: {
-		description: '',
+		description: 'Open alliance event tab',
 		actions: [
 			{
 				command: 'click',
@@ -97,7 +97,7 @@ export default {
 		],
 	},
 	allianceBattle: {
-		description: '',
+		description: 'Open alliance battle tab',
 		actions: [
 			{
 				command: 'click',
@@ -108,7 +108,7 @@ export default {
 		],
 	},
 	allianceSlideLeft: {
-		description: '',
+		description: 'Slide alliance menu left',
 		actions: [
 			{
 				command: 'slide',
@@ -119,7 +119,7 @@ export default {
 		],
 	},
 	allianceSlideRight: {
-		description: '',
+		description: 'Slide alliance menu right',
 		actions: [
 			{
 				command: 'slide',
@@ -130,7 +130,7 @@ export default {
 		],
 	},
 	allianceTerritoryTax: {
-		description: '',
+		description: 'Open alliance territory tab & collect tax',
 		actions: [
 			{
 				command: 'click',
@@ -159,7 +159,7 @@ export default {
 		],
 	},
 	allianceClose: {
-		description: '',
+		description: 'Press close icon in alliance view',
 		actions: [
 			{
 				command: 'click',

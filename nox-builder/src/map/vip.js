@@ -1,6 +1,6 @@
 export default {
 	vip: {
-		description: '',
+		description: 'Open VIP menu',
 		actions: [
 			{
 				command: 'click',
@@ -11,7 +11,7 @@ export default {
 		],
 	},
 	vipFreeChest: {
-		description: '',
+		description: 'Get daily VIP rewards chest',
 		actions: [
 			{
 				command: 'click',
@@ -28,7 +28,7 @@ export default {
 		],
 	},
 	vipPointsChest: {
-		description: '',
+		description: 'Get daily VIP points chest',
 		actions: [
 			{
 				command: 'click',
@@ -45,7 +45,7 @@ export default {
 		],
 	},
 	vipClose: {
-		description: '',
+		description: 'Close VIP menu',
 		actions: [
 			{
 				command: 'click',

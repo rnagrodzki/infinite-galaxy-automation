@@ -1,6 +1,6 @@
 export default {
 	rallyJoinOrWithdraw: {
-		description: '',
+		description: 'Press in window rally join/withdraw',
 		actions: [
 			{
 				command: 'click',
@@ -11,7 +11,7 @@ export default {
 		],
 	},
 	rallyClose: {
-		description: '',
+		description: 'Close rally window',
 		actions: [
 			{
 				command: 'click',

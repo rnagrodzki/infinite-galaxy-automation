@@ -1,6 +1,6 @@
 export default {
 	crew: {
-		description: '',
+		description: 'Open Crew main menu',
 		actions: [
 			{
 				command: 'click',
@@ -11,7 +11,7 @@ export default {
 		],
 	},
 	crewRecruitment: {
-		description: '',
+		description: 'Recruit crew member 1 time & back to crew menu',
 		actions: [
 			{
 				command: 'click',
@@ -46,7 +46,8 @@ export default {
 		],
 	},
 	crewExperience: {
-		description: '',
+		description:
+			'Add extra XP to first crew member on list & back to crew menu',
 		actions: [
 			{
 				command: 'click',
@@ -87,7 +88,7 @@ export default {
 		],
 	},
 	crewClose: {
-		description: '',
+		description: 'Close crew menu',
 		actions: [
 			{
 				command: 'click',
