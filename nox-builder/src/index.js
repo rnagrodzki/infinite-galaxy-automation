@@ -1,6 +1,6 @@
 import fs from 'fs';
 import {
-	TEMPLATES_DIR,
+	STORIES_DIR,
 	MACROS_DIR,
 	BUILD_DIR,
 	KEYMAP_DIR,
@@ -27,7 +27,7 @@ const main = async () => {
 	createIfNotExist(MACROS_DIR);
 	createIfNotExist(KEYMAP_DIR);
 
-	const macros = macroGenerator(TEMPLATES_DIR);
+	const macros = macroGenerator(STORIES_DIR);
 	const keymap = generateKeymap(macros, KEYMAP_DIR);
 	const files = macros.concat(keymap);
 	saveFiles(files);

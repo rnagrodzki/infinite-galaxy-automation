@@ -1,0 +1,13 @@
+title: Daily missions
+comment: Get all boxes from daily missions
+keys: R+M
+commands:
+  - missions
+  - missions2ndTab
+  - missionsChest1
+  - missionsChest2
+  - missionsChest3
+  - missionsChest4
+  - missionsChest5
+  - missionsChest6
+  - missionsClose
