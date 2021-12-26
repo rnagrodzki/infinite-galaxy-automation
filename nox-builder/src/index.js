@@ -15,7 +15,14 @@ const createIfNotExist = dir => {
 	}
 };
 
+const deleteDirectory = dir => {
+	if (fs.existsSync(dir)) {
+		fs.rmSync(dir, {recursive: true});
+	}
+};
+
 const main = async () => {
+	deleteDirectory(BUILD_DIR);
 	createIfNotExist(BUILD_DIR);
 	createIfNotExist(MACROS_DIR);
 	createIfNotExist(KEYMAP_DIR);
