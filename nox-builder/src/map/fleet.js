@@ -16,31 +16,37 @@ const ACCEPT_TARGET_COMMAND = {
 };
 
 export default {
-	fleetLaunch: [LAUNCH_FIRST_FLEET_COMMAND],
-	fleetConfirm: [
-		ACCEPT_TARGET_COMMAND,
-		LAUNCH_FIRST_FLEET_COMMAND,
-		{
-			command: 'click',
-			arguments: [1540, 610],
-			delay: FLEET_CHOOSE_DELAY,
-			description: 'Confirm sending fleet - fleet 2',
-		},
-		{
-			command: 'click',
-			arguments: [1540, 740],
-			delay: FLEET_CHOOSE_DELAY,
-			description: 'Confirm sending fleet - fleet 3 & 4',
-		},
-	],
-	fleetFirstConfirm: [
-		ACCEPT_TARGET_COMMAND,
-		{
-			command: 'click',
-			arguments: [1800, 280],
-			delay: FLEET_CHOOSE_DELAY,
-			description: 'Click 1st fleet on list',
-		},
-		LAUNCH_FIRST_FLEET_COMMAND,
-	],
+	fleetLaunch: {description: '', actions: [LAUNCH_FIRST_FLEET_COMMAND]},
+	fleetConfirm: {
+		description: '',
+		actions: [
+			ACCEPT_TARGET_COMMAND,
+			LAUNCH_FIRST_FLEET_COMMAND,
+			{
+				command: 'click',
+				arguments: [1540, 610],
+				delay: FLEET_CHOOSE_DELAY,
+				description: 'Confirm sending fleet - fleet 2',
+			},
+			{
+				command: 'click',
+				arguments: [1540, 740],
+				delay: FLEET_CHOOSE_DELAY,
+				description: 'Confirm sending fleet - fleet 3 & 4',
+			},
+		],
+	},
+	fleetFirstConfirm: {
+		description: '',
+		actions: [
+			ACCEPT_TARGET_COMMAND,
+			{
+				command: 'click',
+				arguments: [1800, 280],
+				delay: FLEET_CHOOSE_DELAY,
+				description: 'Click 1st fleet on list',
+			},
+			LAUNCH_FIRST_FLEET_COMMAND,
+		],
+	},
 };

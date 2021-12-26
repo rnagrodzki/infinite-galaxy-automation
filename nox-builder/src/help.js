@@ -33,7 +33,7 @@ const general = [
 ];
 
 const generateCommandsListItem = commandsMap => key => {
-	const {description} = commandsMap[key][0];
+	const {description} = commandsMap[key];
 	return {
 		desc: key,
 		example: description,
@@ -56,9 +56,7 @@ const captureUserCommands = ({help, commands}) => {
 	if (help) {
 		return true;
 	} else if (commands) {
-		console.log(
-			commandLineUsage(general.concat(generateCommandsList(map)))
-		);
+		console.log(commandLineUsage(generateCommandsList(map)));
 		return true;
 	}
 

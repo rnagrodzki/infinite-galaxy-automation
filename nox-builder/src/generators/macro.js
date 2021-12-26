@@ -19,13 +19,13 @@ const parseCommandDefinition = def => {
 };
 
 const processCommand = ({name: commandName, parameters}) => {
-	const commands = map[commandName];
-	if (!Array.isArray(commands))
+	const {actions} = map[commandName];
+	if (!Array.isArray(actions))
 		throw new Error(
 			`Command "${commandName}" definition has to be an array`
 		);
 
-	return commands
+	return actions
 		.map(({command, arguments: params, delay, description}) => {
 			const mergedParams = (
 				params ? params.concat(parameters) : parameters
