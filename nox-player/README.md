@@ -10,3 +10,6 @@ Check [builder](../nox-builder/README.md) to create your own!
    3. Paste into NoxPlayer editor field
 3. Bing macro to key which you want
 4. Save changes
+
+## Is it too much? Use keymap updater
+Follow [the guide](../UPDATER.md) and enjoy!

@@ -1,9 +1,5 @@
 import map from '../map/index.js';
-import {
-	MACROS_DIR,
-	MAX_SCREEN_HEIGHT,
-	MAX_SCREEN_WIDTH,
-} from '../consts/index.js';
+import {MACROS_DIR, MAX_SCREEN_HEIGHT, MAX_SCREEN_WIDTH} from '../consts.js';
 import storiesReader from '../readers/storiesReader.js';
 
 const parseCommandDefinition = def => {
