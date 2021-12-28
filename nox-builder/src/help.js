@@ -1,7 +1,7 @@
 import commandLineUsage from 'command-line-usage';
-import map from './map/index.js';
 import storiesReader from './readers/storiesReader.js';
-import {STORIES_DIR} from './consts/index.js';
+import map from './map/index.js';
+import {STORIES_DIR} from './consts.js';
 
 const general = [
 	{

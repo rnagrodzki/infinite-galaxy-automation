@@ -1,4 +1,4 @@
-const NEW_LINE = 'HUAN_HANG';
+import keymapMacro from './keymapMacro.js';
 
 const xmlTemplate = `<?xml version='1.0' encoding='UTF-8'?>
 <Root>
@@ -20,7 +20,7 @@ const generateKeymap = (macros, dir) => {
 			.replace('##ID##', index.toString())
 			.replace('##POSY##', index.toString())
 			.replace('##POS2Y##', index.toString())
-			.replace('##MACRO##', content.join(NEW_LINE));
+			.replace('##MACRO##', keymapMacro(content));
 	});
 
 	const keyboardContent = xmlTemplate.replace(
@@ -40,7 +40,7 @@ const generateKeymap = (macros, dir) => {
 				macros.map(({name, keys, content}) => ({
 					name,
 					keys,
-					macro: content.join(NEW_LINE),
+					macro: keymapMacro(content),
 				})),
 				null,
 				2

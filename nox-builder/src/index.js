@@ -1,12 +1,7 @@
 import fs from 'fs';
 import commandLineArgs from 'command-line-args';
 import captureUserCommands from './help.js';
-import {
-	STORIES_DIR,
-	MACROS_DIR,
-	BUILD_DIR,
-	KEYMAP_DIR,
-} from './consts/index.js';
+import {STORIES_DIR, MACROS_DIR, BUILD_DIR, KEYMAP_DIR} from './consts.js';
 import macroGenerator from './generators/macro.js';
 import saveFiles from './saveFiles.js';
 import generateKeymap from './generators/keymap.js';
