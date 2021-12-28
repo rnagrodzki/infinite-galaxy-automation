@@ -1,6 +1,6 @@
 {
   "name": "infinite-galaxy-automation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of automated scripts/macros for Infinite Galaxy game",
   "main": "nox-builder/src/index/index.js",
   "type": "module",
