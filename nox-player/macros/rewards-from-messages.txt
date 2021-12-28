@@ -16,6 +16,9 @@ delay 200
 # action: Delete all read messages from active messages
 click 600 980
 delay 500
+# action: Confirm to delete all read mail
+click 780 720
+delay 500
 # action: close messages window
 click 1835 100
 delay 1000

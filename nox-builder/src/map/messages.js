@@ -48,6 +48,12 @@ export default {
 				delay: 500,
 				description: 'Delete all read messages from active messages',
 			},
+			{
+				command: 'click',
+				arguments: [780, 720],
+				delay: 500,
+				description: 'Confirm to delete all read mail',
+			},
 		],
 	},
 	messagesClose: {
