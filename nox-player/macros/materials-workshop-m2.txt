@@ -1,0 +1,27 @@
+size 1920 1080
+# ---- Materials Workshop - Material 2 ----
+# description: Go to Materials Workshop and start producing material 2
+# action: Move camera to Materials Workshop station
+slide 1700 760 100 760
+delay 2000
+# action: Click on Materials Workshop
+click 1110 540
+delay 1500
+# action: Click to add to queue M2: Amorphous Alloy
+click 1350 250
+delay 500
+# action: Click to add to queue M2: Amorphous Alloy
+click 1350 250
+delay 500
+# action: Click to add to queue M2: Amorphous Alloy
+click 1350 250
+delay 500
+# action: Click to add to queue M2: Amorphous Alloy
+click 1350 250
+delay 500
+# action: Click to add to queue M2: Amorphous Alloy
+click 1350 250
+delay 500
+# action: Close Materials Workshop
+click 1840 100
+delay 1500

@@ -16,8 +16,14 @@ export default {
 			{
 				command: 'click',
 				arguments: [1600, 570],
-				delay: 500,
+				delay: 750,
 				description: 'Click daily VIP rewards chest',
+			},
+			{
+				command: 'click',
+				arguments: [1600, 570],
+				delay: 500,
+				description: 'Stop rewards animation',
 			},
 			{
 				command: 'click',
@@ -32,13 +38,19 @@ export default {
 		actions: [
 			{
 				command: 'click',
-				arguments: [1600, 570],
-				delay: 500,
+				arguments: [1720, 240],
+				delay: 750,
 				description: 'Click daily VIP points chest',
 			},
 			{
 				command: 'click',
-				arguments: [1600, 570],
+				arguments: [1720, 240],
+				delay: 500,
+				description: 'Stop rewards animation',
+			},
+			{
+				command: 'click',
+				arguments: [1720, 240],
 				delay: 500,
 				description: 'Close rewards overlay',
 			},

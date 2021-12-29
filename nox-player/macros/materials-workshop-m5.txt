@@ -1,0 +1,27 @@
+size 1920 1080
+# ---- Materials Workshop - Material 5 ----
+# description: Go to Materials Workshop and start producing material 5
+# action: Move camera to Materials Workshop station
+slide 1700 760 100 760
+delay 2000
+# action: Click on Materials Workshop
+click 1110 540
+delay 1500
+# action: Click to add to queue M5
+click 1150 450
+delay 500
+# action: Click to add to queue M5
+click 1150 450
+delay 500
+# action: Click to add to queue M5
+click 1150 450
+delay 500
+# action: Click to add to queue M5
+click 1150 450
+delay 500
+# action: Click to add to queue M5
+click 1150 450
+delay 500
+# action: Close Materials Workshop
+click 1840 100
+delay 1500
