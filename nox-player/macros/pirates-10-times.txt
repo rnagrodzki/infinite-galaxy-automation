@@ -14,12 +14,12 @@ click 1560 680
 delay 2000
 # action: Click attack button on selected target
 click 1340 540
-delay 1000
+delay 200
 # action: Click 1st fleet on list
 click 1800 280
-delay 200
+delay 50
 # action: Confirm sending fleet - fleet 1
 click 1540 480
-delay 200
+delay 50
 # action: Add extra delay
 delay 75000

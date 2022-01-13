@@ -1,5 +1,5 @@
-const FLEET_CHOOSE_DELAY = 200;
-const ACCEPT_TARGET_DELAY = 1000;
+const FLEET_CHOOSE_DELAY = 50;
+const ACCEPT_TARGET_DELAY = 200;
 
 const LAUNCH_FIRST_FLEET_COMMAND = {
 	command: 'click',
@@ -33,7 +33,7 @@ export default {
 			},
 			{
 				command: 'click',
-				arguments: [1540, 740],
+				arguments: [1540, 715],
 				delay: FLEET_CHOOSE_DELAY,
 				description: 'Confirm sending fleet - fleet 3 & 4',
 			},

@@ -1,6 +1,8 @@
 size 1920 1080
 # ---- Pirates ----
 # description: Fight with pirates using latest completed stage
+# action: Repeat macro several times
+loop 2
 # action: Open search window
 click 1620 340
 delay 1000
@@ -19,3 +21,5 @@ delay 50
 # action: Confirm sending fleet - fleet 1
 click 1540 480
 delay 50
+# action: Add extra delay
+delay 75000
