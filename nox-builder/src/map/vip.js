@@ -1,9 +1,11 @@
+import {CLICK} from '../supportedCommands.js';
+
 export default {
 	vip: {
 		description: 'Open VIP menu',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [90, 160],
 				delay: 1500,
 				description: 'Open VIP menu',
@@ -14,19 +16,19 @@ export default {
 		description: 'Get daily VIP rewards chest',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 570],
 				delay: 750,
 				description: 'Click daily VIP rewards chest',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 570],
 				delay: 500,
 				description: 'Stop rewards animation',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 570],
 				delay: 500,
 				description: 'Close rewards overlay',
@@ -37,19 +39,19 @@ export default {
 		description: 'Get daily VIP points chest',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1720, 240],
 				delay: 750,
 				description: 'Click daily VIP points chest',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1720, 240],
 				delay: 500,
 				description: 'Stop rewards animation',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1720, 240],
 				delay: 500,
 				description: 'Close rewards overlay',
@@ -60,7 +62,7 @@ export default {
 		description: 'Close VIP menu',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1840, 100],
 				delay: 1000,
 				description: 'Close VIP menu',

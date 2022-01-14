@@ -1,3 +1,5 @@
+import {CLICK} from '../supportedCommands.js';
+
 const CONFIRM_SEARCH_DELAY = 2000;
 
 export default {
@@ -5,7 +7,7 @@ export default {
 		description: 'Open search window',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1620, 340],
 				delay: 1000,
 				description: 'Open search window',
@@ -16,7 +18,7 @@ export default {
 		description: 'Switch to pirates tab in search window',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [460, 270],
 				delay: 750,
 				description: 'Open pirates search tab',
@@ -27,7 +29,7 @@ export default {
 		description: 'Switch to plasma tab in search window',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [460, 800],
 				delay: 750,
 				description: 'Open plasma search tab',
@@ -38,7 +40,7 @@ export default {
 		description: 'Switch to nickel tab in search window',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [460, 690],
 				delay: 750,
 				description: 'Open nickel search tab',
@@ -49,7 +51,7 @@ export default {
 		description: 'Select latest killed pirates',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1560, 680],
 				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select latest killed pirates',
@@ -60,7 +62,7 @@ export default {
 		description: 'Select resource lvl 5',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1560, 280],
 				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select resource lvl 5',
@@ -71,7 +73,7 @@ export default {
 		description: 'Select resource lvl 5',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1560, 380],
 				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select resource lvl 5',
@@ -82,7 +84,7 @@ export default {
 		description: 'Select resource lvl 4',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1560, 480],
 				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select resource lvl 4',
@@ -93,7 +95,7 @@ export default {
 		description: 'Select resource lvl 3',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1560, 580],
 				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select resource lvl 3',
@@ -104,7 +106,7 @@ export default {
 		description: 'Select resource lvl 2',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1560, 680],
 				delay: CONFIRM_SEARCH_DELAY,
 				description: 'Select resource lvl 2',

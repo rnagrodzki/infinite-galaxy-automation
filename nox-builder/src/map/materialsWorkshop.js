@@ -1,15 +1,17 @@
+import {CLICK, SLIDE} from '../supportedCommands.js';
+
 export default {
 	materialsWorkshop: {
 		description: 'Open Materials Workshop',
 		actions: [
 			{
-				command: 'slide',
+				command: SLIDE,
 				arguments: [1700, 760, 100, 760], // X1, Y1, X2, Y2
 				delay: 2000,
 				description: 'Move camera to Materials Workshop station',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1110, 540],
 				delay: 1500,
 				description: 'Click on Materials Workshop',
@@ -20,7 +22,7 @@ export default {
 		description: 'Click to add to queue M1',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1150, 250],
 				delay: 500,
 				description: 'Click to add to queue M1',
@@ -31,7 +33,7 @@ export default {
 		description: 'Click to add to queue M2: Amorphous Alloy',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1350, 250],
 				delay: 500,
 				description: 'Click to add to queue M2: Amorphous Alloy',
@@ -42,7 +44,7 @@ export default {
 		description: 'Click to add to queue M3',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1550, 250],
 				delay: 500,
 				description: 'Click to add to queue M31',
@@ -53,7 +55,7 @@ export default {
 		description: 'Click to add to queue M4',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1750, 250],
 				delay: 500,
 				description: 'Click to add to queue M4',
@@ -64,7 +66,7 @@ export default {
 		description: 'Click to add to queue M5',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1150, 450],
 				delay: 500,
 				description: 'Click to add to queue M5',
@@ -75,7 +77,7 @@ export default {
 		description: 'Click to add to queue M6',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1350, 450],
 				delay: 500,
 				description: 'Click to add to queue M6',
@@ -86,7 +88,7 @@ export default {
 		description: 'Click to add to queue M7',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1550, 450],
 				delay: 500,
 				description: 'Click to add to queue M7',
@@ -97,7 +99,7 @@ export default {
 		description: 'Click to add to queue M8',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1750, 450],
 				delay: 500,
 				description: 'Click to add to queue M8',
@@ -108,7 +110,7 @@ export default {
 		description: 'Click to add to queue M9',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1150, 650],
 				delay: 500,
 				description: 'Click to add to queue M9',
@@ -119,7 +121,7 @@ export default {
 		description: 'Click to add to queue M10',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1350, 650],
 				delay: 500,
 				description: 'Click to add to queue M10',
@@ -130,7 +132,7 @@ export default {
 		description: 'Close Materials Workshop',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1840, 100],
 				delay: 1500,
 				description: 'Close Materials Workshop',

@@ -1,15 +1,17 @@
+import {CLICK} from '../supportedCommands.js';
+
 export default {
 	action: {
 		description: '',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [],
 				delay: 500,
 				description: '',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [],
 				delay: 500,
 				description: '',

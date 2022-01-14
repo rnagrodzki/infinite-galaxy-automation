@@ -1,3 +1,5 @@
+import {CLICK} from '../supportedCommands.js';
+
 const OPEN_TAB_DELAY = 1500;
 const CLOSING_TAB_DELAY = 1000;
 const SLIDE_DELAY = 2000;
@@ -10,7 +12,7 @@ export default {
 		description: 'Open alliance tab',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1050, 950],
 				delay: 2000,
 				description: 'Open alliance tab',
@@ -21,7 +23,7 @@ export default {
 		description: 'Open alliance tech tab',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [760, 830],
 				delay: OPEN_TAB_DELAY,
 				description: 'Open alliance tech tab',
@@ -32,19 +34,19 @@ export default {
 		description: 'Open alliance gift tab & claim all gifts',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1050, 830],
 				delay: OPEN_TAB_DELAY,
 				description: 'Open alliance gift tab',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1780, 290],
 				delay: REWARDS_OVERLAY_DELAY,
 				description: 'Claim all gifts',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1780, 290],
 				delay: 500,
 				description: 'Dismiss rewards overlay',
@@ -55,7 +57,7 @@ export default {
 		description: 'Remove all gifts',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 290],
 				delay: 500,
 				description: 'Remove all gifts',
@@ -66,19 +68,19 @@ export default {
 		description: 'Open alliance daily missions tab & claim all rewards',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 830],
 				delay: OPEN_TAB_DELAY,
 				description: 'Open alliance daily missions tab',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1740, 980],
 				delay: REWARDS_OVERLAY_DELAY,
 				description: 'Claim all rewards for daily missions',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1740, 980],
 				delay: CLOSING_REWARDS_OVERLAY_DELAY,
 				description: 'Dismiss rewards overlay',
@@ -89,7 +91,7 @@ export default {
 		description: 'Open alliance event tab',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [480, 830],
 				delay: OPEN_TAB_DELAY,
 				description: 'Open alliance event tab',
@@ -100,7 +102,7 @@ export default {
 		description: 'Open alliance battle tab',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [480, 830],
 				delay: OPEN_TAB_DELAY,
 				description: 'Open alliance battle tab',
@@ -133,25 +135,25 @@ export default {
 		description: 'Open alliance territory tab & collect tax',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1170, 830],
 				delay: OPEN_TAB_DELAY,
 				description: 'Open alliance territory tab',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1220, 100],
 				delay: SWITCH_TAB_DELAY,
 				description: 'Switch to alliance territory tax tab',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 250],
 				delay: REWARDS_OVERLAY_DELAY,
 				description: 'Claim tax reward',
 			},
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1600, 250],
 				delay: CLOSING_REWARDS_OVERLAY_DELAY,
 				description: 'Claim tax reward',
@@ -162,7 +164,7 @@ export default {
 		description: 'Press close icon in alliance view',
 		actions: [
 			{
-				command: 'click',
+				command: CLICK,
 				arguments: [1830, 100],
 				delay: CLOSING_TAB_DELAY,
 				description: 'Close alliance tab',
